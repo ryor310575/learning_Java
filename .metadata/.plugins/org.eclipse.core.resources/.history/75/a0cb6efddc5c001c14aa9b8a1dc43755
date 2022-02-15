@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package tutorial1;
+
+/**
+ * @author ryor310575
+ *
+ */
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Non Primitive data type
+		//String helloWorld="Hellow World!";
+		//Primitive data type
+		//int helloWorld=5;
+		//double helloWorld=5.5;
+		//boolean helloWorld=true;
+		//char helloWorld='F';
+		System.out.print(helloWorld);
+	}
+
+}

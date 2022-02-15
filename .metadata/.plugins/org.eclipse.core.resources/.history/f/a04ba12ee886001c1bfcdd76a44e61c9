@@ -1,0 +1,72 @@
+package tutorial.dos.com;
+
+import java.util.Scanner;
+
+// Sentencias de control
+public class tutorial2control {
+	public static boolean multiploTest(int a,int b) {
+		boolean m=true;
+		if(a%b!=0) {
+			m=false;	
+			}
+			return m;
+	}
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner(System.in);
+		int n1,m;
+		//Sentencia if...else...end
+		// Prueba de numero positivo
+		System.out.println("\n=================");
+		System.out.println("Prueba numero positivo");
+		System.out.println("\nIngrese un numero entero: ");
+		n1=entrada.nextInt();
+		if(n1>=0) {
+		System.out.println("El numero es Positivo");	
+			
+		}
+		else {
+			System.out.println("El numero es Negativo");	
+		}
+		
+		// Prueba de numero par
+		System.out.println("\n=================");
+		System.out.println("Prueba numero Par");
+		System.out.println("\nIngrese un numero entero: ");
+		n1=entrada.nextInt();
+		if(n1%2==0) {
+			System.out.println("El numero es Par");	
+				
+			}
+			else {
+				System.out.println("El numero es Impar");	
+			}
+		// Prueba de numero multiplo de 3
+		System.out.println("\n=================");
+		System.out.println("Prueba numero multiplo de 3");
+		System.out.println("\nIngrese un numero entero: ");
+		n1=entrada.nextInt();
+		if(n1%3==0) {
+			System.out.println("El numero cumple");	
+				
+			}
+			else {
+				System.out.println("El numero no cumple");	
+			}
+		// Prueba de numero multiplo n
+		System.out.println("\n=================");
+		System.out.println("Prueba numero multiplo de N");
+		System.out.println("\nIngrese un numero multiplo de N: ");
+		n1=entrada.nextInt();
+		System.out.println("\nIngrese un numero N");
+		m=entrada.nextInt();
+		if(multiploTest(n1, m)) {
+			System.out.println("El numero cumple");	
+				
+			}
+			else {
+				System.out.println("El numero no cumple");	
+			}
+		entrada.close();
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.tres.tutorial3;
+
+public class Furgoneta extends Coche{
+private int capCarga;
+private int  plazasExtra;
+
+public Furgoneta(int capCarga,int plazasExtra) {
+	this.setCapCarga(capCarga);
+	this.plazasExtra=plazasExtra;
+}
+public Furgoneta() {
+	this(1500,2);
+}
+public int getCapCarga() {
+	return capCarga;
+}
+public void setCapCarga(int capCarga) {
+	this.capCarga = capCarga;
+}
+
+
+}

@@ -1,0 +1,40 @@
+package tutorial.fundaciontelefonica.com;
+import java.util.Scanner;
+//Sentrncia Switch ... Case
+public class tutorial2ControlSwitch {
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner(System.in);
+		int dia;
+		String diaString;
+		System.out.println("Ingrese # dia de la semana");
+		dia = entrada.nextInt();
+		switch(dia) {
+		case 1:
+			diaString="Lunes";
+			break;
+		case 2:
+			diaString="Mates";
+			break;
+		case 3:
+			diaString="Miercoles";
+			break;
+		case 4:
+			diaString="Jueves";
+			break;
+		case 5:
+			diaString="Viernes";
+			break;
+		case 6:
+			diaString="Sabado";
+			break;
+		case 7:
+			diaString="Domingo";
+			break;
+		default:
+			diaString="El dia no existe";
+		}
+		System.out.println("El dia es "+diaString);
+		entrada.close();
+	}
+
+}

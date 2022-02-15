@@ -1,0 +1,10 @@
+package com.tres.tutorial3;
+
+public class Jefe extends Empleado{
+	super(String nom, double sue, int agno, int mes, int dia);
+	super((String nom);
+	public Jefe() {
+		
+	}
+
+}

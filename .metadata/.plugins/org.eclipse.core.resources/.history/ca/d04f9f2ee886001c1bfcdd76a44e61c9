@@ -1,0 +1,53 @@
+package tutorial.dos.com;
+
+import java.util.Scanner;
+
+public class tutorial2ControlFor {
+	public static void main(String[] args){
+		Scanner inInt=new Scanner(System.in);	
+		int num, count=0, par, digitos, trigger;
+		System.out.println("==================");
+		System.out.println("Ingrese un  Numero");
+		num = inInt.nextInt();
+		//Generar Numeros naturales
+		System.out.println("\n==================");
+		System.out.println("Numeros Naturales");
+		for (count=0;count<num;count++) {
+			System.out.println("# " + count);
+		} 
+		// Generar serie 765765765...
+		System.out.println("\n==================");
+		System.out.println("Serie 765...");
+		System.out.println("Ingrese un  Numero");
+		num = inInt.nextInt();
+		trigger=7;
+		count=0;
+		while (count<3*num) {
+			System.out.println(trigger);
+			if (trigger>5) {
+				trigger--;
+			} else {
+				trigger=7;
+			}
+			count++;
+			//System.out.println("Count " +count);
+		}
+		
+		// Generar serie 11211311141111511111...
+		System.out.println("\n==================");
+		System.out.println("Serie 765...");
+		System.out.println("Ingrese un  Numero");
+		num = inInt.nextInt();
+		trigger=7;
+		count=1;
+		while (count<num) {
+			System.out.println(count);
+			for (trigger=1;trigger<=count;trigger++) {
+				System.out.println("1");
+			}
+			count++;
+			//System.out.println("Count " +count);
+		}
+		inInt.close();
+	}
+}

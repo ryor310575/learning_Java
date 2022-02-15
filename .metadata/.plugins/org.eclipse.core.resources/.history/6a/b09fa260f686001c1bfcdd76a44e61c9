@@ -1,0 +1,11 @@
+package tutorial.fundaciontelefonica.com;
+
+//import java.util.Scanner;
+
+	public static void main(String[] args) {
+		//Scanner entrada=new Scanner(System.in);
+		double max=65,min=18,max_intentos=20,rend_print, ;
+		
+		for()
+		entrada.close();
+	}

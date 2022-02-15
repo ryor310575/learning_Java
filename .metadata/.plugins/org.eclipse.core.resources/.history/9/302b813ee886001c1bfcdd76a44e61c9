@@ -1,0 +1,19 @@
+package tutorial.fundaciontelefonica.com;
+import java.util.Scanner;
+public class tutorial2ControlDo {
+	public static void main(String[] args){
+		Scanner inInt=new Scanner(System.in);	
+		int num, count=0, par, digitos;
+		System.out.println("==================");
+		System.out.println("Ingrese un  Numero");
+		num = inInt.nextInt();
+		//Generar Numeros naturales
+		System.out.println("\n==================");
+		System.out.println("Numeros Naturales");
+		do {
+			System.out.println("# " + count);
+			count++;
+		} while (count<num);
+		inInt.close();
+	}
+}

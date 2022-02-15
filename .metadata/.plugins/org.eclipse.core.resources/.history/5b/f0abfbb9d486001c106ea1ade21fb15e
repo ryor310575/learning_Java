@@ -1,0 +1,31 @@
+package com.tres.tutorial3;
+
+public class usoEmpleado {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Empleado[] empleado=new Empleado[3];
+		 empleado[0]=new Empleado("Jose Gomez",1500,1980,06,24);
+		 empleado[1]=new Empleado("Alva Perez",1600,1995,8,15);
+		 empleado[2]=new Empleado("Mirta Casas",1250,2001,12,22);
+		 //Impromir el nombre de los empleados
+		 for (Empleado e: empleado) {
+		System.out.println("El Nombre:"+e.dameNombre());	
+		 }
+		 //Subir sueldo 
+		 for (Empleado e: empleado) {
+				e.subeSueldo(20);	
+				 }
+		 
+		 //Imprimir 
+		 for (Empleado e: empleado) {
+				System.out.println("El Nombre:"+e.dameSueldo());	
+				 }
+		 //Imprimir 
+		 for (Empleado e: empleado) {
+				System.out.println("El Nombre:"+e.dameId()+
+						"\nEl Id Siguiente es: "+ Empleado.dameDameNextId());	
+				 }
+	}
+
+}

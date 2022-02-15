@@ -1,0 +1,37 @@
+package tutorial.dos.com;
+
+import java.util.Scanner;
+
+//Sentencias de control
+public class tutorial2Control2 {
+	public static boolean mayorqueTest(int a,int b) {
+		boolean m=true;
+		if(a<=b) {
+			m=false;	
+			}
+			return m;
+	}
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner(System.in);
+		int n1,m;
+		System.out.println("\n=================");
+		System.out.println("Prueba numero Mayor");
+		System.out.println("\nIngrese el primer numero");
+		n1=entrada.nextInt();
+		System.out.println("\nIngrese el segundo numero");
+		m=entrada.nextInt();
+		if(n1==m) {
+			System.out.println("iguales");	
+				
+			}
+			else {
+				if(mayorqueTest(n1,m)) {
+					System.out.println("El numero "+n1+" es mayor que "+m);
+				}
+				else{
+					System.out.println("El numero "+m+" es mayor que "+n1);
+				}
+			}
+		entrada.close();
+	}
+}

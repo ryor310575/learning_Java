@@ -1,0 +1,13 @@
+package com.tres.tutorial3;
+
+public class Persona {
+	private final String nombre;
+	public Persona(String nombre) {// TODO Auto-generated constructor stub
+	}
+	public Persona() {// TODO Auto-generated constructor stub
+	}
+	public String dameNombre() {//getter
+		return nombre;
+	}
+
+}

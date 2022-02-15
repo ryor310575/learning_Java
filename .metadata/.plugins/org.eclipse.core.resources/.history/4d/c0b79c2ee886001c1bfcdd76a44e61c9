@@ -1,0 +1,64 @@
+package tutorial.dos.com;
+import java.util.Scanner;
+public class tutorial2ControlWhile {
+	public static void main(String[] args) {
+		Scanner inInt=new Scanner(System.in);	
+		int num, count=0, par, digitos;
+		System.out.println("==================");
+		System.out.println("Ingrese un  Numero");
+		num = inInt.nextInt();
+		//Generar Numeros naturales
+		System.out.println("\n==================");
+		System.out.println("Numeros Naturales");
+		while (count<num) {
+			System.out.println("# " + count);
+			count++;
+		}
+		// Numeros Pares
+		System.out.println("\n==================");
+		System.out.println("Numeros Pares");
+		count=0;
+		while (count<num) {
+			par=2*(count);
+			System.out.println("# " + par);
+			count++;
+		}
+		// Numeros Imares
+		System.out.println("\n==================");
+		System.out.println("Numeros Impares");
+		count=0;
+		while (count<num) {
+			par=2*(count)+1;
+			System.out.println("# " + par);
+			count++;
+		}
+		// digitos de un numero
+		System.out.println("\n==================");
+		System.out.println("Cantidad de digitos");
+		System.out.println("==================");
+		System.out.println("Ingrese un  Numero");
+		num = inInt.nextInt();
+		count=0;
+		while (0<num) {
+			num=num/10;
+			count++;
+		}
+		System.out.println("Cantidad de digitos es " + count);
+
+		// Suma digitos de un numero
+		System.out.println("\n==================");
+		System.out.println("Suma de digitos");
+		System.out.println("==================");
+		System.out.println("Ingrese un  Numero");
+		num = inInt.nextInt();
+		count=0;
+		digitos=0;
+		while (0<num) {
+			digitos=digitos+num%10;
+			num=num/10;
+			count++;
+		}
+		System.out.println("Suma de digitos es " + digitos);
+		inInt.close();
+	}
+}

@@ -1,0 +1,37 @@
+package tutorial.fundaciontelefonica.com;
+import java.util.Scanner;
+public class tutorial2ControlArry {
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner(System.in);
+		int[]numero=new int[6]; 
+		int i;//Counter
+		String parImpar;
+;		for(i=0;i<numero.length;i++) {
+	//Llenar el Arry
+			System.out.println("Ingrese el numero de la Posición "+i);
+			numero[i]=entrada.nextInt();
+		}
+//Imprimir Numeros
+		System.out.println("Los Numeros son:");
+		for(i=0;i<numero.length;i++) {
+			if(numero[i]%2!=0) {
+				parImpar="Impar";
+			} else {
+				parImpar="par";
+			}
+			System.out.println("Posición " +i +" es " + numero[i] +" y es "+parImpar);
+		}
+		System.out.println("\nLos Numeros Pares son:");
+		for(i=0;i<numero.length;i++) {
+			if(numero[i]%2==0) {
+			System.out.println("Posición " +i +" es " + numero[i]);
+			}
+		}
+		System.out.println("\nLos Numeros Imares son:");
+		for(i=0;i<numero.length;i++) {
+			if(numero[i]%2!=0) {
+			System.out.println("Posición " +i +" es " + numero[i]);	
+		}	
+	}
+}
+}

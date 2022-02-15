@@ -1,0 +1,31 @@
+package tutorial2;
+// Mi primer ejercicio
+import java.util.Scanner;
+public class tutorialApp {
+	function int suma(int a, int b) {
+		int c;
+		c=a+b;
+		return c;
+	}
+	public static void main(String[] args) {
+		//System.out.print("hola Mundo");
+		//int & long
+		int x=5;
+		long y=1999999999;
+		double z=10.88;
+		int numeroUno, numeroDos, resultado;
+		String w="java";
+		System.out.println("El valor y es: "+y);
+		System.out.println("El valor x es: "+x);
+		System.out.println("El valor z es: "+z);
+		System.out.println("El valor w es: "+w);
+		Scanner entrada=new Scanner(System.in);
+		System.out.println("Sumar dos numeros");
+		System.out.println("Introdizca el primer numero: ");
+		numeroUno=Integer.parseInt(entrada.nextLine());
+		System.out.println("Introdizca el segundo numero: ");
+		numeroDos=Integer.parseInt(entrada.nextLine());
+		resultado=suma(numeroUno,numeroDos);
+		System.out.println("La suma es : "+resultado);
+	}
+}

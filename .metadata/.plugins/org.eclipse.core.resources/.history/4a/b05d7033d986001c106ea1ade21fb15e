@@ -1,0 +1,9 @@
+package com.tres.tutorial3;
+
+public class Director {
+
+	public Director() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

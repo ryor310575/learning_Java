@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=tutorial2/src&amp;lt;tutorial.dos.com{tutorial2ControlSwitch.java[tutorial2ControlSwitch&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=tutorial2/src&amp;lt;tutorial.dos.com{tutorial2Control2.java[tutorial2Control2&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=tutorial2/src&amp;lt;tutorial.dos.com{tutorial2control.java[tutorial2control&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=tutorial2/src&amp;lt;tutorial.dos.com{tutorial2ControlWhile.java[tutorial2ControlWhile&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=tutorial2/src&amp;lt;tutorial.dos.com{tutorial2ControlDo.java[tutorial2ControlDo&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="100"/>
+			<item key="DIALOG_Y_ORIGIN" value="0"/>
+			<item key="DIALOG_FONT_NAME" value="1|Ubuntu|10.0|0|GTK|1|"/>
+		</section>
+	</section>
+</section>

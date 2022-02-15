@@ -1,0 +1,9 @@
+package com.tres.tutorial3;
+
+public class Jefe {
+
+	public Jefe() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,11 @@
+package tutorial2;
+// Mi primer ejercicio
+
+public class tutorialApp {
+	public static void main(String[] args) {
+		//System.out.print("hola Mundo");	
+		
+
+	}
+
+}

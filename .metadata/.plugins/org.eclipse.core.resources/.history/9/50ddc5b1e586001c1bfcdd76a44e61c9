@@ -1,0 +1,9 @@
+package com.tres.tutorial3;
+
+public class Alumno {
+
+	public Alumno() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

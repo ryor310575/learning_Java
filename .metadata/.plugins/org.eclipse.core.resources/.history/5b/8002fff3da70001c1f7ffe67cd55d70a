@@ -1,0 +1,22 @@
+package tutorial2;
+// Mi primer ejercicio
+import java.util.Scanner;
+public class tutorialApp {
+	public static void main(String[] args) {
+		//System.out.print("hola Mundo");
+		//int & long
+		int x=5;
+		long y=1999999999;
+		double z=10.88;
+		int a=2, b=3, c;
+		String w="java";
+		System.out.println("El valor y es: "+y);
+		System.out.println("El valor x es: "+x);
+		System.out.println("El valor z es: "+z);
+		System.out.println("El valor w es: "+w);
+		Scanner entrada=new Scaner(System.in);
+		System.out.println("Introdizca su edad: ");
+		int edad=Integer.parseInt(entrada.nextline());
+		System.out.println("Tuedad ess: "+edad);
+	}
+}
